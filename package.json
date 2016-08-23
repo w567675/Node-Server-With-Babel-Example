@@ -1,0 +1,25 @@
+{
+  "name": "node-server-with-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node --presets es2015,stage-2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w567675/Node-Server-With-Babel-Example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w567675/Node-Server-With-Babel-Example/issues"
+  },
+  "homepage": "https://github.com/w567675/Node-Server-With-Babel-Example#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.11.0",
+    "nodemon": "^1.9.2"
+  }
+}
